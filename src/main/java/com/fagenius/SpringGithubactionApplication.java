@@ -11,7 +11,7 @@ public class SpringGithubactionApplication {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "Welcome to javatechie !";
+        return "Welcome to fageniuscode !";
     }
     public static void main(String[] args) {
         SpringApplication.run(SpringGithubactionApplication.class, args);
